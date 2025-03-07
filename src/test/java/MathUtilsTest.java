@@ -54,4 +54,9 @@ public class MathUtilsTest {
         assertEquals(5, MathUtils.gcd(0, 5));
     }
 
+    @Test
+    void testFailing(){
+        assertEquals(5, MathUtils.divide(100, 5));
+    }
+
 }
